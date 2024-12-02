@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Convo💰 - Currency Converter Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>Currency Convo💸💷</h2>
+    </div>
+    <div id="chatBox" class="chat-box"></div>
+    <input id="userInput" class="user-input" type="text" placeholder="Ask me to convert currency..." onkeydown="handleKeyPress(event)">
+    <button class="send-button" onclick="sendMessage()">Send</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
